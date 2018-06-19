@@ -14,6 +14,3 @@ def main():
         return Response(status=200)
     else:
         return Response(status=404)
-
-if __name == '__main__':
-    app.run()
